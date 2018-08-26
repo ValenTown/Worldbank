@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btnGraph"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linechart"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="sans-serif"
+        android:text="@string/save_graph"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
