@@ -29,7 +29,7 @@ public class FullImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_full_image);
-        toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar); //
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
